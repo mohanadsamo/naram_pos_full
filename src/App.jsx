@@ -1,4 +1,9 @@
-// سيتم نسخ الكود الكامل من ملفك الحالي (Naram Pos Full Ar)
-// يمكنك استبدال هذا الملف بمحتوى الكود الكامل لاحقًا.
-import React from 'react';
-export default function App(){return <div className='p-8 text-center'>مرحباً بك في نظام نَرام POS. استبدل هذا الملف لاحقاً بالكود الكامل.</div>}
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
